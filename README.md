@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://github.com/">core-api</a></h1>
+<h1 align="center"><a href="https://github.com/">Core-API</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -11,8 +11,13 @@ implementation
 <h4>text</h4>
 
 
+
+
+
+
+
 ----
-<h1 align="center"><a href="https://github.com/cristalix-developers/animation-api-docs">animation-api</a></h1>
+<h1 align="center"><a href="https://github.com/cristalix-developers/animation-api-docs">Animation-API</a></h1>
 <h2>Как подключить?</h2>
 
 <h3 align >Get Started with <code>gradle</code></h3>
@@ -22,10 +27,24 @@ implementation 'me.func:animation-api:live-SNAPSHOT'
 ```
 
 <h2>Что делает эта библиотека?</h3>
-<h4>animation-api - инструмент для отображения дополнительного визуала и функционала. Позволяет создавать диалоги, лутбоксы, BattlePass, NPC, Graffiti, отправлять сообщение в killboard, показать игроку предмет на экране с анимацией и много другого.</h4>
+<h4>Animation-API - Инструмент для отображения дополнительного визуала и функционала, и отвечает за следующие функции:</h4>
+
+- Квестовые диалоги
+- ЛутБоксы
+- BattlePass
+-  NPC
+- Мультичат
+- Граффити
+- Прочий визуал (title, markers, topMessage, cursorMessage, itemTitle, KillboardMessage, Timer и тд.)
+
+
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/cristalix-developers/cristalix-client-sdk">ui-engine</a></h1>
+<h1 align="center"><a href="https://github.com/cristalix-developers/cristalix-client-sdk">UI-Engine</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -35,10 +54,16 @@ implementation 'ru.cristalix:client-sdk:5.1.0'
 ```
 
 <h2>Что делает эта библиотека?</h3>
-<h4>ui-engine - инструмент для создания дополнительного визуала и функционала. Используется в animation-api</h4>
+<h4>UI-Engine - Инструмент для создания дополнительного визуала и функционала, и отвечает за следующие функции:</h4>
+- Поддержка работы Animation-API
+- Создание дополнительного визуала
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/">java-client-api</a></h1>
+<h1 align="center"><a href="https://github.com/cristalix-developers/cristalix-client-api-java">Java-Client-API</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -48,10 +73,16 @@ implementation
 ```
 
 <h2>Что делает эта библиотека?</h3>
-<h4>text</h4>
+<h4>Java-Client-API - Инструмент для создания пользовательских модов, отвечает за следующие функции:</h4>
+- Создание пользовательских модов с различным функционалом
+
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/cristalix-developers/nightingale">nightingale</a></h1>
+<h1 align="center"><a href="https://github.com/cristalix-developers/nightingale">Nightingale</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -61,10 +92,17 @@ implementation 'me.func:nightingale-api:1.0.13'
 ```
 
 <h2>Что делает эта библиотека?</h3>
-<h4>nightingale - компактный и удобный инструмент для создания общих чатов, между разными серверами. Например, можно сделать во всех серверах лобби один чат.</h4>
+<h4>Nightingale - Компактный и удобный инструмент для создания общих чатов, межу разными серверами и отвечает за следующие функции:</h4>
+- Создание общего чата, для определенных серверов
+
+
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/cristalix-developers/nightingale">metaworld</a></h1>
+<h1 align="center"><a href="https://github.com/cristalix-developers/nightingale">MetaWorld</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -74,10 +112,17 @@ implementation 'me.func:metaworld-api:live-SNAPSHOT'
 ```
 
 <h2>Что делает эта библиотека?</h3>
-<h4>metaworld - инструмент, для создания личных построек у каждого игрока. Позволяет получать список разрешенных построек, добавлять туда постройки и обрабатывать действия с этой постройкой.</h4>
+<h4>MetaWorld - Инструмент, для создания личных элементов игры каждому игроку, и отвечает за следующие функции:</h4>
+- Действия со списком личных элементов
+- Отслеживание действий с личным элементом игрока (onBreak, onClick)
+
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/">kensuke</a></h1>
+<h1 align="center"><a href="https://github.com/">Kensuke</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -95,10 +140,19 @@ export KENSUKE_LOGIN='login'
 ```
 
 <h2>Что делает эта библиотека?</h2>
-<h4>kensuke - хранилище данных. Позволяет максимально просто связать данные игроков между серверами.</h4>
+<h4>Kensuke - Инструмент для работы с хранилищем данных, отвечает за следующие функции:</h4>
+- Связка данных игроков между серверами
+- Действия с хранилищем данных (add/take/set/get)
+- Создание хранилища данных
+
+
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/">games5e</a></h1>
+<h1 align="center"><a href="https://github.com/">Games5e or GameService</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -115,10 +169,19 @@ implementation 'ru.cristalix:games5e-integration:1.2.4'
 
 <h2>Что делает эта библиотека?</h3>
 
-<h4>Games5e (gameservice) - сервис для быстрого развертывания игр. Позволяет запускать игры, получать информацию о игроках, создавать очереди и добавлять в них игроков.</h4>
+<h4>Games5e (GameService) - Инструмент для быстрого развертывания игр, отвечает за следующие функции:</h4>
+- Действия с игрой (Запуск/Остановка)
+- Получение информации об игроке
+- Создание очереди и последующее добавление игроков в нее
+
+
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/">cristalix-top</a></h1>
+<h1 align="center"><a href="https://github.com/">Cristalix-Top</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -130,21 +193,36 @@ implementation
 <h2>Что делает эта библиотека?</h3>
 <h4>text</h4>
 
+
+
+
+
+
+
 ----
-<h1 align="center"><a href="https://github.com/">arcade-api</a></h1>
+<h1 align="center"><a href="https://github.com/cristalix-developers/arcade-client-server">Arcade-API</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
 
 ```
-implementation
+implementation 'me.func:arcade-api:0.0.5-SNAPSHOT'
 ```
 
 <h2>Что делает эта библиотека?</h3>
-<h4>text</h4>
+<h4>Arcade-API - Инструмент для работы с аркадами, отвечает за следущие функции:</h4>
+- Использование персонализации аркад
+- Бустеры
+- Квесты
+
+
+
+
+
+
 
 ----
-<h1 align="center"><a href="https://github.com/cristalix-developers/simulator-api">simulator-api</a></h1>
+<h1 align="center"><a href="https://github.com/cristalix-developers/simulator-api">Simulator-API</a></h1>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -154,4 +232,5 @@ implementation 'ru.kdev:simulator-api:1.0-SNAPSHOT'
 ```
 
 <h2>Что делает эта библиотека?</h3>
-<h4>simulator-api - сервис для быстрого создания симуляторов с определенным функционалом. Позволяет разрабатывать геймплей, гораздо меньше задумываясь о развертывании.</h4>
+<h4>Simulator-API - Инструмент для создания симуляторов, отвечает за следующие функции:</h4>
+- Позволяет разрабатывать геймплей, гораздо меньше задумываясь о развертывании
