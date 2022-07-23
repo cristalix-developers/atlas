@@ -1,6 +1,5 @@
 <h1><a href="https://github.com/">Core-API</a></h1>
 <h4>Core-API - Инструмент для работы с ядром</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -22,11 +21,8 @@ implementation
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/cristalix-developers/animation-api-docs">Animation-API</a></h1>
 <h4>Animation-API - универсальный инструмент, добавляющий дополнительный визуал, функционал и прочее</h4>
-<br>
 <h2>Как подключить?</h2>
 
 Get Started with <code>gradle</code>
@@ -68,11 +64,8 @@ implementation 'me.func:animation-api:live-SNAPSHOT'
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/cristalix-developers/cristalix-client-sdk">UI-Engine</a></h1>
 <h4>UI-Engine - Инструмент для создания дополнительного визуала</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -93,11 +86,8 @@ implementation 'ru.cristalix:client-sdk:5.1.0'
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/cristalix-developers/cristalix-client-api-java">Java-Client-API</a></h1>
 <h4>Java-Client-API - Инструмент для создания пользовательских модов</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -118,11 +108,8 @@ implementation
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/cristalix-developers/nightingale">Nightingale</a></h1>
 <h4>Nightingale - Компактный и удобный инструмент для создания общих чатов между разными серверами</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -144,11 +131,8 @@ implementation 'me.func:nightingale-api:1.0.13'
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/cristalix-developers/nightingale">MetaWorld</a></h1>
 <h4>MetaWorld - Инструмент для создания личных элементов игры каждому игроку</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -170,11 +154,8 @@ implementation 'me.func:metaworld-api:live-SNAPSHOT'
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/">Kensuke</a></h1>
 <h4>Kensuke - Инструмент для работы с хранилищем данных</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -206,11 +187,8 @@ export KENSUKE_LOGIN='login'
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/">Games5e or GameService</a></h1>
 <h4>Games5e (GameService) - Инструмент для быстрого развертывания игр</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -241,11 +219,8 @@ implementation 'ru.cristalix:games5e-integration:1.2.4'
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/">Cristalix-Top</a></h1>
 <h4>Cristalix-Top - Инструмент для работы с лидербордами</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -267,11 +242,8 @@ implementation
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/cristalix-developers/arcade-client-server">Arcade-API</a></h1>
 <h4>Arcade-API - Инструмент для работы с аркадами</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
@@ -297,11 +269,8 @@ implementation 'me.func:arcade-api:0.0.5-SNAPSHOT'
 
 ----
 <br>
-<br>
-<br>
 <h1><a href="https://github.com/cristalix-developers/simulator-api">Simulator-API</a></h1>
 <h4>Simulator-API - Инструмент для создания симуляторов</h4>
-<br>
 <h2>Как подключить?</h2>
 
 <h3>Get Started with <code>gradle</code></h3>
